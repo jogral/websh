@@ -22,8 +22,8 @@ else
         fi
 
         echo "Starting server..."
-        $PYTHON_EXEC $SOCKET_DIR/server.py
-        echo "Quitting..."
+        $PYTHON_EXEC $SOCKET_DIR/server.py &
+        #echo "Quitting..."
         exit 0
     fi
 fi
