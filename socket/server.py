@@ -10,7 +10,7 @@ if __name__ == '__main__':
         (r"/(.*)", tornado.web.StaticFileHandler, {'path': './web/'})
     ]
     app = tornado.web.Application(handlers)
-    app.listen(8020)
+    app.listen(8888)
     try:
         IOLoop.current().start()
     except KeyboardInterrupt:
