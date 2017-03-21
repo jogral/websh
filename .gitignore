@@ -35,3 +35,19 @@ jspm_packages
 
 # Optional REPL history
 .node_repl_history
+
+# Don't use virtualenv in project. Let the script create it.
+pyenv/
+
+# Non-dist files
+web/assets/*/AUTHORS
+web/assets/*/*.md
+web/assets/*/*.yaml
+web/assets/*/bin
+web/assets/*/src
+web/assets/*/*.js
+web/assets/*/.*
+web/assets/*/Dockerfile
+web/assets/*/Profile*
+web/assets/*/LICENSE
+web/assets/*/*.json

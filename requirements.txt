@@ -1,0 +1,2 @@
+terminado >= 0.6
+tornado >= 4.4.2
